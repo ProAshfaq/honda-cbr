@@ -8,6 +8,7 @@ body{
 :root{
     --bg-color:  #264653;
     --primary-color: #E76F51;
+    --font-color: #18191F;
     --heading-size: 48px;
 }
 h1{
@@ -27,12 +28,15 @@ hr{
     padding-top: 155px;
     padding-bottom: 96px;
 }
-.hero-section span{
-
+.hero p{
+    color: #E0E0E0;
 }
 .btn-purchase{
     background-color: var(--primary-color);
     padding: 10px 40px;
+}
+.btn-purchase:hover{
+    background-color: #cc5335;
 }
 .btn-check:focus+.btn, .btn:focus {
     outline: 0;
@@ -48,4 +52,66 @@ hr{
 .feature-section small{
     color: var(--primary-color);
 }
+.feature-section img{
+    width: 288px;
+}
+.img-one, .img-three{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
 /* feature section end */
+
+/* news section start */
+.news .card{
+    padding: 20px;
+}
+.news .card-body {
+    padding: 0;
+}
+.news .card img{
+    margin: auto;
+}
+.news .card-title{
+    font-weight: 600;
+    color: #18191F;
+}
+.card-text{
+    color: var(--font-color);
+}
+.btn-card{
+    background-color: var(--primary-color);
+    padding: 13px 30px;
+    border: 1px solid var(--primary-color);
+    color: #fff;
+}
+.btn-card:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+
+}
+/* news section end */
+
+/* client section start */
+.client span{
+    color: var(--primary-color);
+}
+.client-img{
+    width: 149px;
+}
+.client-review{
+    color: var(--font-color)
+}
+.card .fas{
+    color: var(--primary-color);
+}
+.card .far{
+    color: var(--primary-color);
+}
+.client-name{
+    color: #23A6F0;
+}
+.client-position{
+    color: #252B42;
+    margin-bottom: 0;
+}
+/* client secton end */
