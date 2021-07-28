@@ -1,0 +1,51 @@
+/* font awesome styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* global styles start */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --bg-color:  #264653;
+    --primary-color: #E76F51;
+    --heading-size: 48px;
+}
+h1{
+    font-size: var(--heading-size);
+    font-weight: 600;
+}
+hr{
+    color: var(--primary-color);
+    width: 58px;
+    opacity: 1;
+}
+/* global styles start */
+
+/* hero section start */
+.hero-section{
+    background-color: var(--bg-color);
+    padding-top: 155px;
+    padding-bottom: 96px;
+}
+.hero-section span{
+
+}
+.btn-purchase{
+    background-color: var(--primary-color);
+    padding: 10px 40px;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none; 
+}
+/* hero section end */
+
+/* feature section start */
+
+.feature-info p{
+    margin-bottom: -10px;
+}
+.feature-section small{
+    color: var(--primary-color);
+}
+/* feature section end */
