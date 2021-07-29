@@ -8,12 +8,17 @@
     footer{
         text-align: center;
     }
+    footer ul{
+        display: flex;
+        flex-direction: column;
+    }
     footer small{
         display: none;
     }
     .mobile-text{
         display: block;
     }
+
 }
 
 
