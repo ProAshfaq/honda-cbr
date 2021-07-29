@@ -1,9 +1,15 @@
 @media (max-width: 768px) {
+    h1{
+        font-size: 2rem;
+    }
     .btn-nav{
         margin-left: 0;
     }
     .card-body p{
         padding: 0 20%;
+    }
+    .newsletter-input{
+        width: 18rem;
     }
     footer{
         text-align: center;
