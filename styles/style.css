@@ -58,6 +58,7 @@ p{
 .btn-nav{
     background-color: var(--primary-color);
     color: #fff;
+    margin-left: 40px;
 }
 .btn-nav:hover{
     color: #fff;

@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+    .btn-nav{
+        margin-left: 0;
+    }
     .card-body p{
         padding: 0 20%;
     }
