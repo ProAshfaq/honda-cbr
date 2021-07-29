@@ -15,10 +15,16 @@ h1{
     font-size: var(--heading-size);
     font-weight: 600;
 }
+h1 span{
+    color: var(--primary-color);
+}
 hr{
     color: var(--primary-color);
     width: 58px;
     opacity: 1;
+}
+p{
+    color: var(--font-color);
 }
 /* global styles start */
 
@@ -92,9 +98,6 @@ hr{
 /* news section end */
 
 /* client section start */
-.client span{
-    color: var(--primary-color);
-}
 .client-img{
     width: 149px;
 }
@@ -115,3 +118,37 @@ hr{
     margin-bottom: 0;
 }
 /* client secton end */
+
+/* faq  section start */
+.accordion-button:not(.collapsed) {
+    color: #383838;
+    background-color: #fff;
+    box-shadow: none;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border: 1px solid;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-item:not(:first-of-type) {
+    border: 1px solid rgba(0,0,0,.125);
+}
+/* faq section end */
+
+/* newsletter section start */
+.btn-subscribe{
+    background-color: var(--primary-color);
+    padding: 10px 32px;
+    color: #fff;
+}
+.btn-subscribe:hover{
+    color: #fff;
+    background-color: #cc5335;
+}
+.newsletter input:focus{
+        outline: none;
+        box-shadow: none;
+      }
+}
+/* newsletter section end */
