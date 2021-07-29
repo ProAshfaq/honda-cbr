@@ -26,13 +26,47 @@ hr{
 p{
     color: var(--font-color);
 }
-/* global styles start */
+/* global styles end */
+
+/* navbar */
+.navbar{
+    background-color: var(--bg-color);
+    color: #fff;
+}
+.n-icon{
+    color: #fff;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    margin-right: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.685);
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(255 255 255);
+    border: none;
+}
+.btn-nav{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.btn-nav:hover{
+    color: #fff;
+    background-color: #cc5335;
+}
 
 /* hero section start */
 .hero-section{
     background-color: var(--bg-color);
-    padding-top: 155px;
-    padding-bottom: 96px;
 }
 .hero p{
     color: #E0E0E0;
@@ -98,9 +132,6 @@ p{
 /* news section end */
 
 /* client section start */
-.client-img{
-    width: 149px;
-}
 .client-review{
     color: var(--font-color)
 }
@@ -149,6 +180,29 @@ p{
 .newsletter input:focus{
         outline: none;
         box-shadow: none;
-      }
 }
 /* newsletter section end */
+
+/* footer */
+
+footer ul{
+    display: flex;
+    padding-left: 0;
+}
+footer ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+footer ul li:hover a{
+    color: rgb(230, 230, 230);
+}
+footer h5, small{
+    color: #fff;
+}
+.mobile-text{
+    display: none;
+}

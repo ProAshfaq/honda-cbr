@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .card-body p{
+        padding: 0 20%;
+    }
+    footer{
+        text-align: center;
+    }
+    footer small{
+        display: none;
+    }
+    .mobile-text{
+        display: block;
+    }
+}
+
+
+
