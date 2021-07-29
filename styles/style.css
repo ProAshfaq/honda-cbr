@@ -172,7 +172,6 @@ p{
 .btn-subscribe{
     background-color: var(--primary-color);
     padding: 10px 32px;
-    color: #fff;
 }
 .newsletter-input{
     width: 22rem;

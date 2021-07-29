@@ -1,16 +1,21 @@
 @media (max-width: 768px) {
+    /* global */
     h1{
         font-size: 2rem;
     }
+    /* navbar */
     .btn-nav{
         margin-left: 0;
     }
+    /* client */
     .client .card-body p{
         padding: 0 20%;
     }
+    /* newsletter */
     .newsletter-input{
         width: 18rem;
     }
+    /* :) */
     footer{
         text-align: center;
     }
